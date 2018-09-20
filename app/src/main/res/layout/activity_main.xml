@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/doyouspeakenglish"
+            app:layout_row="0"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill"
+            android:text="Do you&#10;speak english"
+            android:onClick="playMusic"/>
+
+        <Button
+            android:id="@+id/goodevening"
+            app:layout_row="0"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill"
+            android:text="Good Evening"
+            android:onClick="playMusic"/>
+
+        <Button
+            android:id="@+id/hello"
+            app:layout_row="1"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill"
+            android:text="Hello"
+            android:onClick="playMusic"/>
+
+        <Button
+            android:id="@+id/howareyou"
+            app:layout_row="1"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill"
+            android:text="How are you"
+            android:onClick="playMusic"/>
+
+        <Button
+            android:id="@+id/ilivein"
+            app:layout_row="2"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill"
+            android:text="I live in..."
+            android:onClick="playMusic"/>
+
+        <Button
+            android:id="@+id/mynameis"
+            app:layout_row="2"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill"
+            android:text="My name is..."
+            android:onClick="playMusic"/>
+
+        <Button
+            android:id="@+id/please"
+            app:layout_row="3"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill"
+            android:text="Please"
+            android:onClick="playMusic"/>
+
+        <Button
+            android:id="@+id/welcome"
+            app:layout_row="3"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_rowWeight="1"
+            app:layout_gravity="fill"
+            android:text="Welcome"
+            android:onClick="playMusic"/>
+
+    </android.support.v7.widget.GridLayout>
+
+</RelativeLayout>
